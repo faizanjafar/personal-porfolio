@@ -1,0 +1,285 @@
+@media (max-width:991px) {
+    .banner-content {
+        align-items: center;
+    }
+
+    .banner-content p {
+        text-align: center;
+    }
+
+    .banner .row {
+        padding-top: 5rem;
+    }
+    .img {
+        width: 80%;
+        height: 450px;
+    }
+
+}
+@media (max-width:1100px) {
+
+    .banner-content h1 {
+        font-size: 55px;
+    }
+
+}
+
+
+
+
+@media (max-width: 900px) {
+    #header {
+        padding: .8rem 2.5rem;
+    }
+
+    .nav .nav_item {
+        margin: 0 12px;
+    }
+
+    nav .logo {
+        font-size: 2.1rem;
+    }
+    
+}
+
+
+
+@media (max-width: 768px) {
+
+    .menu-btn,
+    .cancel-btn {
+        display: block;
+        font-size: 1.2rem;
+    }
+
+    .nav_item .nav-icon {
+        display: block;
+    }
+
+    #header {
+        width: 100%;
+        position: fixed;
+        top: 0%;
+        left: 0;
+        z-index: 100;
+    }
+
+    .nav_menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        background-color: var(--white-color);
+        width: 100%;
+        padding: 5rem 1rem 5rem;
+        border-radius: 0 0 1.2rem 1.2rem;
+        z-index: 1000;
+        transition: .3s;
+    }
+
+    .nav .nav_list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+        column-gap: 3rem;
+    }
+
+    .nav .nav_logo {
+        font-size: 2rem;
+    }
+
+    .nav .nav_link {
+        display: flex;
+        color: var(--black-color);
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: .3px;
+        transition: .8s;
+    }
+
+    .nav-icon {
+        font-size: 1.2rem;
+        padding-bottom: .3rem;
+    }
+
+    .cancel-btn {
+        position: absolute;
+        right: 1.7rem;
+        top: .8rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: var(--black-color);
+    }
+
+    .show-menu {
+        top: 0;
+    }
+
+    .banner .row {
+        padding-top: 4rem;
+        padding-bottom: 6rem;
+    }
+
+
+    .hire-banner-content h4 {
+        font-size: 1.8rem;
+    }
+    .map iframe{
+        height: 450px !important;
+    }
+}
+
+
+@media (max-width: 490px) {
+    .section {
+        padding-top: 8rem;
+    }
+
+    #header {
+        padding: .8rem 1rem;
+    }
+
+    .banner-content h1 {
+        font-size: 40px;
+    }
+
+    .banner-content p {
+        font-size: .8rem;
+    }
+
+    .hire-banner-content h4 {
+        font-size: 1.4rem;
+    }
+    .img {
+        width: 75%;
+        height: 300px;
+    }
+    .about-content p {
+        font-size: .9rem !important;
+    }
+    .heading h2 {
+        font-size: 2.2rem;
+    }
+
+    .heading p {
+        font-size: .9rem;
+    }
+
+    .services-box p {
+        font-size: .9rem;
+    }
+    .p-btns {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .p-btns .p-btn:last-child{
+        margin-top: -.5rem;
+    }
+    .dflex{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer-icon span{
+        margin: 0px 7px !important;
+    }
+    .footer p{
+        margin-bottom: .9rem !important;
+        letter-spacing: .3px;
+        word-spacing: .1px;
+    }
+    .map iframe{
+        height: 410px !important;
+    }
+}
+
+@media (max-width: 405px) {
+    .nav .nav_list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        column-gap: 2rem;
+    }
+
+    .nav .nav_logo {
+        font-size: 1.5rem;
+    }
+
+    .heading h2 {
+        font-size: 2rem;
+    }
+
+    .heading p {
+        font-size: .87rem;
+    }
+
+    .nav .nav_link {
+        font-size: .9rem;
+    }
+
+    .banner-content h5 {
+        font-size: .9rem;
+    }
+
+    .banner-content h1 {
+        font-size: 34px;
+    }
+
+    .banner-content p {
+        font-size: .8rem;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-btn2 {
+        margin-top: 1rem;
+        margin-left: 0;
+        padding: 12px 31px;
+    }
+
+    .services-box p {
+        font-size: .87rem;
+        padding: 0;
+    }
+
+    .hire-btn {
+        padding: 11px 22px;
+    }
+
+    .hire-banner-content h4 {
+        font-size: 1.2rem;
+        letter-spacing: 0;
+    }
+    .img {
+        width: 70% !important;
+        height: 260px;
+    }
+    .footer p{
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .nav .nav_list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.7rem;
+        column-gap: 1.7rem;
+    }
+
+    .nav .nav_logo {
+        font-size: 1.5rem;
+    }
+
+    .banner-content h1 {
+        font-size: 30px;
+    }
+    .about-content p {
+        font-size: .85rem !important;
+    }
+}
